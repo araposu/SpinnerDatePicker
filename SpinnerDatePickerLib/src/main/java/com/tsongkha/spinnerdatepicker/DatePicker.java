@@ -280,7 +280,7 @@ public class DatePicker extends FrameLayout {
             // All-text would require custom NumberPicker formatters for day and year.
             mShortMonths = new String[mNumberOfMonths];
             for (int i = 0; i < mNumberOfMonths; ++i) {
-                mShortMonths[i] = String.format("%d", i + 1);
+                mShortMonths[i] = String.format("%02d", i + 1);
             }
         }
     }
